@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="pong.css">
+    <title>PONG_GAME</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="startMenu">
+          <h1>Pong</h1>
+          <button id="startBtn">Start</button>
+        </div>
+        <div id="pauseMenu">
+          <h1>Pause</h1>
+          <button id="continueBtn">Continue</button>
+          <button id="restartBtn">Restart</button>
+        </div>
+        <div id="gameOverMenu">
+          <h1 id="gameMessage"></h1>
+          <button id="againBtn">Try again</button>
+        </div>
+        <div id="gameplay">
+          <canvas id="gameCanvas" width="800" height="600"></canvas>
+        </div>
+      </div>
+      <p>Made by <a href="https://github.com/alwalid54321">alwalid54321</a></p>
+<h1>refresh for another background</h1>
+<script src="pong.js"></script>
+</body>
+
+</html>
